@@ -58,7 +58,7 @@ def sensehat():
         #firebase
         cred = credentials.Certificate("./config/labo-i-firebase-adminsdk-nr652-7d2e873b71.json")
         appname = "Color App"
-        firebase_admin.initialize_app(cred , "Wouter")
+        firebase_admin.initialize_app(cred)
 
         #connect firestore
         db = firestore.client()
